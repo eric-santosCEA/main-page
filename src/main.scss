@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  font-family: Comfortaa, sans-serif;
+}
+
+.app {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.navbar {
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    li {
+      list-style: none;
+      margin: 20px 5px;
+      .link {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
