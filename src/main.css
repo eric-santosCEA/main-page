@@ -10,10 +10,12 @@ li {
   font-family: Comfortaa, sans-serif;
 }
 
-.app {
-  height: 100vh;
+body {
   margin: 0;
   padding: 0;
+}
+
+.app {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,6 +26,8 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
 }
 
 .navbar {
@@ -43,5 +47,27 @@ li {
   font-size: 1.4rem;
   text-decoration: none;
   color: black;
+}
+
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.home-container .image img {
+  width: 90vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */

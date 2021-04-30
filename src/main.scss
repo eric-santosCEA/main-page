@@ -10,13 +10,17 @@ li {
   font-family: Comfortaa, sans-serif;
 }
 
-.app {
-  height: 100vh;
+body {
   margin: 0;
   padding: 0;
+}
+
+.app {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
 }
 
 .navbar {
@@ -29,5 +33,17 @@ li {
     font-size: 1.4rem;
     text-decoration: none;
     color: black;
+  }
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  .image img {
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
