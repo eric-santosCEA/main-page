@@ -25,6 +25,9 @@ body {
   margin-top: 0;
   width: 100vw;
   background-color: #007965;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   @include media('>775px', '<=LGdesktop') {
     justify-content: flex-end;
     margin-right: 10rem;
@@ -37,7 +40,7 @@ body {
     margin: 20px 0.5rem;
     font-size: 1.2rem;
     text-decoration: none;
-    color: whitesmoke;
+    color: #00af91;
   }
 }
 
@@ -69,9 +72,8 @@ body {
       a {
         img {
           width: 7.5rem;
-          background: #e0e0e0;
           border-radius: 50%;
-          box-shadow: 20px 20px 60px #ffcc29, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
           @include media('>775px', '<=LGdesktop') {
             width: 15rem;
           }
