@@ -3,45 +3,27 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="btn">
-        <a href="https://www.solarcea.com">
-          <button
-            style={{
-              backgroundImage: 'url(/images/roofing-logo.jpg)',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'fixed',
-              backgroundOrigin: 'center',
-              backgroundSize: '20rem 20rem',
-              backgroundColor: 'red',
-            }}
-          />
-        </a>
+      <div className="hero">
+        <div className="container">
+          <a href="https://www.solarcea.com">
+            <img src="/images/roofing-logo.jpg" alt="Roofing" />
+          </a>
+          <h2>Roofing</h2>
+        </div>
 
-        <a href="https://www.solarcea.com/">
-          <button
-            style={{
-              backgroundImage: 'url(/images/solar-logo.png)',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'fixed',
-              backgroundOrigin: 'center',
-              backgroundSize: '20rem 20rem',
-              backgroundColor: '#5cba47',
-            }}
-          />
-        </a>
+        <div className="container">
+          <a href="https://www.solarcea.com">
+            <img src="/images/solar-logo.png" alt="Solar" />
+          </a>
+          <h2>Solar</h2>
+        </div>
 
-        <a href="https://www.solarcea.com">
-          <button
-            style={{
-              backgroundImage: 'url(/images/water-logo.jpeg)',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'fixed',
-              backgroundOrigin: 'center',
-              backgroundSize: '20rem 20rem',
-              backgroundColor: 'blue',
-            }}
-          />
-        </a>
+        <div className="container">
+          <a href="https://www.solarcea.com">
+            <img src="/images/water-logo.jpeg" alt="Water" />
+          </a>
+          <h2>Water</h2>
+        </div>
       </div>
 
       {/* <img src="/images/city.jpg" alt="city" className="image" /> */}

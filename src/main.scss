@@ -17,6 +17,7 @@ body {
   padding: 0;
 }
 
+//navigation bar
 .navbar {
   display: flex;
   flex-flow: row wrap;
@@ -24,6 +25,7 @@ body {
   margin-right: 20rem;
   margin-top: 0;
   width: 100%;
+  background-color: #56b144;
   @include media('>775px', '<=LGdesktop') {
     justify-content: flex-end;
     margin-right: 10rem;
@@ -33,23 +35,25 @@ body {
   .link {
     font-family: Comfortaa, sans-serif;
     list-style: none;
-    margin: 20px 1.5rem;
-    font-size: 1.4rem;
+    margin: 20px 1rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
   }
 }
 
+//Home Page
 .home-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  margin-top: 1.5rem;
 
-  .btn {
+  .hero {
     display: flex;
     flex-flow: column wrap;
-    height: 80vh;
+    height: 90vh;
     justify-content: space-evenly;
     @include media('>775px', '<=LGdesktop') {
       flex-flow: row wrap;
@@ -58,31 +62,19 @@ body {
       align-items: center;
       height: 80vh;
     }
-    button {
-      height: 13rem;
-      width: 13rem;
-      border-radius: 50%;
-      border: none;
-      cursor: pointer;
-      .btn1 {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-origin: content-box;
-        background-size: cover;
-        background-color: yellowgreen;
-      }
+    .container {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
       a {
-        text-decoration: none;
-      }
-      @include media('>775px', '<=LGdesktop') {
-        height: 20rem;
-        width: 20rem;
+        img {
+          width: 11rem;
+          @include media('>775px', '<=LGdesktop') {
+            width: 25rem;
+          }
+        }
       }
     }
   }
-  // .image {
-  //   width: 50%;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
 }
