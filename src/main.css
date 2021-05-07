@@ -113,6 +113,10 @@ body {
   background-color: #00af91;
 }
 
+.home-container .btn button a {
+  text-decoration: none;
+}
+
 @media (min-width: 776px) and (max-width: 1920px) {
   .home-container .btn button {
     height: 20rem;

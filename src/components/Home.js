@@ -4,9 +4,15 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="btn">
-        <button>Roofing</button>
-        <button>Solar</button>
-        <button>Water</button>
+        <button>
+          <a href="#">Roofing</a>
+        </button>
+        <button>
+          <a href="https://www.solarcea.com/">Solar</a>
+        </button>
+        <button>
+          <a href="#">Water</a>
+        </button>
       </div>
 
       {/* <img src="/images/city.jpg" alt="city" className="image" /> */}

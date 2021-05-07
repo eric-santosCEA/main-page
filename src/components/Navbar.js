@@ -14,9 +14,7 @@ const Navbar = () => {
         Join
       </Link>
       <Link className="link" to="/login">
-        <button>
-          <h3>Login</h3>
-        </button>
+        Agent-Login
       </Link>
     </div>
   )

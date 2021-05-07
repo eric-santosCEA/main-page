@@ -67,6 +67,9 @@ body {
       border-radius: 500%;
       border: none;
       background-color: #00af91;
+      a {
+        text-decoration: none;
+      }
       @include media('>775px', '<=LGdesktop') {
         height: 20rem;
         width: 20rem;
