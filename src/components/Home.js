@@ -5,13 +5,13 @@ const Home = () => {
     <div className="home-container">
       <div className="btn">
         <button>
-          <a href="#">Roofing</a>
+          <a href="https://www.solarcea.com/">Roofing</a>
         </button>
         <button>
           <a href="https://www.solarcea.com/">Solar</a>
         </button>
         <button>
-          <a href="#">Water</a>
+          <a href="https://www.solarcea.com/">Water</a>
         </button>
       </div>
 
