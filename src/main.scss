@@ -22,9 +22,8 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-right: 20rem;
   margin-top: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #56b144;
   @include media('>775px', '<=LGdesktop') {
     justify-content: flex-end;
@@ -35,7 +34,7 @@ body {
   .link {
     font-family: Comfortaa, sans-serif;
     list-style: none;
-    margin: 20px 1rem;
+    margin: 20px 0.5rem;
     font-size: 1.2rem;
     text-decoration: none;
     color: black;
@@ -69,7 +68,7 @@ body {
       align-items: center;
       a {
         img {
-          width: 11rem;
+          width: 7.5rem;
           @include media('>775px', '<=LGdesktop') {
             width: 25rem;
           }

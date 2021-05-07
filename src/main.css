@@ -31,9 +31,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-right: 20rem;
   margin-top: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #56b144;
 }
 
@@ -50,7 +49,7 @@ body {
 .navbar .link {
   font-family: Comfortaa, sans-serif;
   list-style: none;
-  margin: 20px 1rem;
+  margin: 20px 0.5rem;
   font-size: 1.2rem;
   text-decoration: none;
   color: black;
@@ -121,7 +120,7 @@ body {
 }
 
 .home-container .hero .container a img {
-  width: 11rem;
+  width: 7.5rem;
 }
 
 @media (min-width: 776px) and (max-width: 1920px) {
