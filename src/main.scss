@@ -49,7 +49,7 @@ body {
   .btn {
     display: flex;
     flex-flow: column wrap;
-    height: 90vh;
+    height: 80vh;
     justify-content: space-evenly;
     @include media('>775px', '<=LGdesktop') {
       flex-flow: row wrap;
@@ -59,14 +59,18 @@ body {
       height: 80vh;
     }
     button {
-      font-family: Comfortaa, sans-serif;
-      font-weight: 600;
-      font-size: 1.2rem;
       height: 13rem;
       width: 13rem;
-      border-radius: 500%;
+      border-radius: 50%;
       border: none;
       cursor: pointer;
+      .btn1 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-origin: content-box;
+        background-size: cover;
+        background-color: yellowgreen;
+      }
       a {
         text-decoration: none;
       }

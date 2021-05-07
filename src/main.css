@@ -79,7 +79,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  height: 90vh;
+  height: 80vh;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -103,14 +103,19 @@ body {
 }
 
 .home-container .btn button {
-  font-family: Comfortaa, sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
   height: 13rem;
   width: 13rem;
-  border-radius: 500%;
+  border-radius: 50%;
   border: none;
   cursor: pointer;
+}
+
+.home-container .btn button .btn1 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  background-size: cover;
+  background-color: yellowgreen;
 }
 
 .home-container .btn button a {

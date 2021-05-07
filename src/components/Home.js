@@ -7,7 +7,7 @@ const Home = () => {
         <a href="https://www.solarcea.com">
           <button
             style={{
-              backgroundImage: 'url(/images/logo.png)',
+              backgroundImage: 'url(/images/roofing-logo.jpg)',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'fixed',
               backgroundOrigin: 'center',
@@ -20,7 +20,7 @@ const Home = () => {
         <a href="https://www.solarcea.com/">
           <button
             style={{
-              backgroundImage: 'url(/images/logo.png)',
+              backgroundImage: 'url(/images/solar-logo.png)',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'fixed',
               backgroundOrigin: 'center',
@@ -33,7 +33,7 @@ const Home = () => {
         <a href="https://www.solarcea.com">
           <button
             style={{
-              backgroundImage: 'url(/images/logo.png)',
+              backgroundImage: 'url(/images/water-logo.jpeg)',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'fixed',
               backgroundOrigin: 'center',
