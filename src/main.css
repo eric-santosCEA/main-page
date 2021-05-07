@@ -110,6 +110,7 @@ body {
   width: 13rem;
   border-radius: 500%;
   border: none;
+  cursor: pointer;
 }
 
 .home-container .btn button a {
