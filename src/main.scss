@@ -19,17 +19,39 @@ body {
 }
 
 //navigation bar
+.logo {
+  img {
+    position: absolute;
+    margin: 0 0.5rem;
+    height: 3rem;
+    @include media('>775px', '<=LGdesktop') {
+      margin: 1.5rem 2rem;
+      height: 3.5rem;
+    }
+  }
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+  height: 50px;
+
+  @include media('>775px', '<=LGdesktop') {
+    margin: 0.5rem 1rem;
+  }
+  button {
+    border: none;
+    background-color: #f0e5d8;
+    transition: width 2s;
+  }
+}
 .navbar {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-top: 0;
-  width: 100vw;
-  background: #bbdfc8;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  // @include media('>775px', '<=LGdesktop') {
-  //   justify-content: center;
-  // }
+  flex-flow: column wrap;
+  align-items: flex-end;
+
+  @include media('>775px', '<=LGdesktop') {
+  }
   .link {
     font-family: Comfortaa, sans-serif;
     list-style: none;
@@ -39,6 +61,7 @@ body {
     color: black;
     @include media('>775px', '<=LGdesktop') {
       margin-right: 3rem;
+      font-size: 2rem;
     }
   }
 }
@@ -79,5 +102,21 @@ body {
         }
       }
     }
+  }
+}
+
+// about page
+
+.about {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  h1 {
+    font-size: 10rem;
+    margin-top: 0;
+    width: 100vw;
+    opacity: 3%;
   }
 }

@@ -25,8 +25,6 @@ const Home = () => {
           <h2>Water</h2>
         </div>
       </div>
-
-      {/* <img src="/images/city.jpg" alt="city" className="image" /> */}
     </div>
   )
 }
