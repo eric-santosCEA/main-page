@@ -1,12 +1,18 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   let [toggle, setToggle] = useState(false)
 
   const handleClick = () => {
     setToggle(!toggle)
+  }
+
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
   }
 
   return (
@@ -20,7 +26,13 @@ const Navbar = () => {
         </button>
       </div>
       {toggle ? (
-        <div className="navbar">
+        <motion.div
+          className="navbar"
+          initial="hidden"
+          animate="visible"
+          transition={{ duration: 0.75 }}
+          variants={variants}
+        >
           <Link className="link" to="/about">
             About
           </Link>
@@ -32,7 +44,7 @@ const Navbar = () => {
           <Link className="link" to="/login">
             Agent-Login
           </Link>
-        </div>
+        </motion.div>
       ) : null}
     </>
   )

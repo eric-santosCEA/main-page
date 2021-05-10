@@ -1,31 +1,53 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const Home = () => {
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  }
   return (
-    <div className="home-container">
+    <motion.div
+      className="home-container"
+      initial="hidden"
+      animate="visible"
+      variants={variants}
+    >
       <div className="hero">
         <div className="container">
           <a href="https://www.solarcea.com">
-            <img src="/images/roofing-logo.jpg" alt="Roofing" />
+            <motion.img
+              src="/images/roofing-logo.jpg"
+              alt="Roofing"
+              whileHover={{ scale: 1.1 }}
+            />
           </a>
           <h2>Roofing</h2>
         </div>
 
         <div className="container">
           <a href="https://www.solarcea.com">
-            <img src="/images/solar-logo.png" alt="Solar" />
+            <motion.img
+              src="/images/solar-logo.png"
+              alt="Solar"
+              whileHover={{ scale: 1.1 }}
+            />
           </a>
           <h2>Solar</h2>
         </div>
 
         <div className="container">
           <a href="https://www.solarcea.com">
-            <img src="/images/water-logo.jpeg" alt="Water" />
+            <motion.img
+              src="/images/water-logo.jpeg"
+              alt="Water"
+              whileHover={{ scale: 1.1 }}
+            />
           </a>
           <h2>Water</h2>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 export default Home
