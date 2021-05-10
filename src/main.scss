@@ -79,12 +79,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  margin-top: 1.5rem;
 
   .hero {
     display: flex;
     flex-flow: column wrap;
-    height: 90vh;
+    height: 80vh;
     justify-content: space-evenly;
     @include media('>775px', '<=LGdesktop') {
       flex-flow: row wrap;
@@ -100,7 +99,7 @@ body {
       align-items: center;
       a {
         img {
-          width: 7.5rem;
+          width: 6.2rem;
           border-radius: 50%;
           box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
           @include media('>775px', '<=LGdesktop') {
@@ -109,6 +108,18 @@ body {
         }
       }
     }
+  }
+}
+.bottom-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 5rem;
+  background-color: #5bb044;
+  .btm-link {
+    color: black;
+    text-decoration: none;
   }
 }
 
