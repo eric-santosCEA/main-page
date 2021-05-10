@@ -43,14 +43,21 @@ body {
     border: none;
     background-color: #f0e5d8;
     transition: width 2s;
+    height: 20px;
   }
 }
 .navbar {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-end;
+  position: absolute;
+  background-color: whitesmoke;
+  width: 55vw;
+  left: 10rem;
 
   @include media('>775px', '<=LGdesktop') {
+    width: 15vw;
+    left: 100rem;
   }
   .link {
     font-family: Comfortaa, sans-serif;

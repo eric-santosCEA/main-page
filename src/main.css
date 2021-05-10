@@ -56,6 +56,7 @@ body {
   background-color: #f0e5d8;
   -webkit-transition: width 2s;
   transition: width 2s;
+  height: 20px;
 }
 
 .navbar {
@@ -69,6 +70,17 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  position: absolute;
+  background-color: whitesmoke;
+  width: 55vw;
+  left: 10rem;
+}
+
+@media (min-width: 776px) and (max-width: 1920px) {
+  .navbar {
+    width: 15vw;
+    left: 100rem;
+  }
 }
 
 .navbar .link {
