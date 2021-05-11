@@ -183,12 +183,23 @@ body {
       align-items: center;
       flex-flow: row wrap;
       width: 250px;
-      height: 4.5rem;
       margin-right: 2rem;
     }
-    a {
-      @include media('>775px', '<=LGdesktop') {
-        color: black;
+    .box {
+      a {
+        @include media('>775px', '<=LGdesktop') {
+          display: flex;
+          align-items: center;
+          flex-flow: column;
+          color: black;
+          text-decoration: none;
+        }
+        .icon {
+          padding-top: 1rem;
+        }
+        h6 {
+          margin-top: 0;
+        }
       }
     }
   }
