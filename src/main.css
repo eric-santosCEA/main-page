@@ -131,6 +131,11 @@ body {
   flex-flow: column wrap;
 }
 
+.bottom-nav .btm-link h1 {
+  font-size: 1rem;
+  color: #f0e5d8;
+}
+
 @media (min-width: 776px) and (max-width: 1920px) {
   .bottom-nav {
     display: none;

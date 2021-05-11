@@ -17,7 +17,7 @@ const Home = () => {
         <div className="container">
           <a href="https://www.solarcea.com">
             <motion.img
-              src="/images/roofing-logo.jpg"
+              src="/images/roofing-logo.webp"
               alt="Roofing"
               whileHover={{ scale: 1.1 }}
             />
@@ -28,7 +28,7 @@ const Home = () => {
         <div className="container">
           <a href="https://www.solarcea.com">
             <motion.img
-              src="/images/solar-logo.png"
+              src="/images/solar-logo.webp"
               alt="Solar"
               whileHover={{ scale: 1.1 }}
             />
@@ -39,7 +39,7 @@ const Home = () => {
         <div className="container">
           <a href="https://www.solarcea.com">
             <motion.img
-              src="/images/water-logo.jpeg"
+              src="/images/water-logo.webp"
               alt="Water"
               whileHover={{ scale: 1.1 }}
             />

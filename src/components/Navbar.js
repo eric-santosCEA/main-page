@@ -21,7 +21,7 @@ const Navbar = () => {
         <img src="512x512.png" alt="logo" className="logo" />
       </Link>
       <div className="menu">
-        <button onClick={handleClick} className="menu-bar">
+        <button onClick={handleClick} className="menu-bar" alt="menu">
           <FaBars size="25" color="green" className="icon" />
         </button>
       </div>

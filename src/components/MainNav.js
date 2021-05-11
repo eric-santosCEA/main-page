@@ -7,16 +7,16 @@ const MainNav = () => {
     <>
       <div className="bottom-nav">
         <Link to="/work" className="btm-link">
-          <FaToolbox size="30px" />
-          <h4>Work</h4>
+          <FaToolbox size="30px" color="#F0E5D8" />
+          <h1>Work</h1>
         </Link>
         <Link to="/hiring" className="btm-link">
-          <FaMoneyBill size="30px" />
-          <h4>Hiring</h4>
+          <FaMoneyBill size="30px" color="#F0E5D8" />
+          <h1>Hiring</h1>
         </Link>
         <Link to="contact" className="btm-link">
-          <FaPhone size="30px" />
-          <h4>Contact</h4>
+          <FaPhone size="30px" color="#F0E5D8" />
+          <h1>Contact</h1>
         </Link>
       </div>
     </>

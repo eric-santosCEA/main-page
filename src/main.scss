@@ -87,6 +87,10 @@ body {
     color: black;
     text-decoration: none;
     flex-flow: column wrap;
+    h1 {
+      font-size: 1rem;
+      color: #f0e5d8;
+    }
   }
   @include media('>775px', '<=LGdesktop') {
     display: none;
