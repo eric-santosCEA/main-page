@@ -29,8 +29,8 @@ body {
 
 @media (min-width: 776px) and (max-width: 1920px) {
   .logo img {
-    margin: 1.5rem 2rem;
-    height: 3.5rem;
+    margin: 0rem 7rem;
+    height: 3rem;
   }
 }
 
@@ -41,13 +41,16 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 0.5rem;
-  height: 50px;
+  height: 45px;
 }
 
 @media (min-width: 776px) and (max-width: 1920px) {
   .menu {
-    margin: 0.5rem 1rem;
+    margin: 2rem 6rem;
   }
 }
 
@@ -246,5 +249,71 @@ body {
   margin-top: 0;
   width: 100vw;
   opacity: 3%;
+}
+
+.footer {
+  display: none;
+}
+
+@media (min-width: 756px) and (max-width: 1920px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 95vw;
+    margin: 0 3rem;
+  }
+}
+
+@media (min-width: 776px) and (max-width: 1920px) {
+  .footer .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 250px;
+  }
+}
+
+.footer .projects h3 {
+  margin-left: 1rem;
+}
+
+@media (max-width: 1920px) {
+  .footer .social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 250px;
+    height: 4.5rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  .footer .social-media a {
+    color: black;
+  }
 }
 /*# sourceMappingURL=main.css.map */
