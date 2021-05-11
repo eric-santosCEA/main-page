@@ -13,7 +13,7 @@ const Contact = lazy(() => import('./components/Contact'))
 
 function App() {
   return (
-    <div>
+    <>
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
           <Navbar />
@@ -30,7 +30,7 @@ function App() {
           <MainNav />
         </Suspense>
       </Router>
-    </div>
+    </>
   )
 }
 
