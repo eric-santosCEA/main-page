@@ -256,7 +256,7 @@ body {
   display: none;
 }
 
-@media (min-width: 756px) and (max-width: 1920px) {
+@media (min-width: 776px) and (max-width: 1920px) {
   .footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -291,7 +291,7 @@ body {
   margin-left: 1rem;
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 776px) and (max-width: 1920px) {
   .footer .social-media {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -312,7 +312,7 @@ body {
   }
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 776px) and (max-width: 1920px) {
   .footer .social-media a {
     color: black;
   }
